@@ -1,7 +1,8 @@
-import React from 'react';
-import './App.css';
+import React from "react"
+import "./App.css"
+import CardsContainer from "./Containers/CardsContainer"
 function App() {
-  return <h1>You Can Do This!</h1>;
+  return <CardsContainer />
 }
 
-export default App;
+export default App
